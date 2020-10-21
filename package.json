@@ -1,5 +1,5 @@
 {
-  "name": "parseLatLon",
+  "name": "parselatlon",
   "version": "1.0.0",
   "description": "Parse a string to a Longitude Latitude pair",
   "main": "index.js",
