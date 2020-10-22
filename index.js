@@ -23,9 +23,9 @@ export function parse(inputString) {
   const [lat, lon] = inputString.split(",");
   if (
     lon.toLowerCase().search("n") >= 0 ||
-    lon.toLowerCase().search("n") >= 0
+    lon.toLowerCase().search("s") >= 0
   ) {
-    //swap if in wrong order
+    //swap if in lon,lat order
     const tmp = lat;
     lat = lon;
     lon = tmp;
