@@ -1,6 +1,9 @@
 /**
- *  Parse a string into a longitude-latitude pair suitable for geojson.
+ *  @file Parse a string into a longitude-latitude pair suitable for geojson.
  *  © 2020 Redifish Group LLC
+ */
+
+/**
  *
  * ### Supported Formats:
  * * DD°MM.MMMM’
@@ -16,7 +19,7 @@
  * @module parseLatLon
  * @export parse
  * @param {String} inputString
- * @return {Array.<{lat: Number, lng: Number}>} Longitude, Latitude
+ * @returns {Number[]} [longitude, latitude]
  */
 export function parse(inputString) {
   const [lat, lon] = inputString.split(",");
