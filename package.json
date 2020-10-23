@@ -1,6 +1,6 @@
 {
   "name": "parselatlon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a string to a Longitude Latitude pair",
   "main": "index.js",
   "repository": "git@github.com:RedfishGroup/parseLatLon.git",
